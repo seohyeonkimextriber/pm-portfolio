@@ -70,7 +70,7 @@ export default function ResumePage() {
       {/* Nav */}
       <nav className="sticky top-0 bg-white/90 backdrop-blur border-b border-gray-100 z-10">
         <div className="max-w-4xl mx-auto px-6 h-14 flex items-center justify-between">
-          <Link href="/pm-portfolio" className="text-sm font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+          <Link href="/" className="text-sm font-semibold text-gray-900 hover:text-blue-600 transition-colors">
             ← 포트폴리오
           </Link>
           <span className="text-sm text-gray-400">이력서</span>

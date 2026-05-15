@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const metadata = {
   title: "이력서 · 김서현",
   description: "결제·정산 도메인 PM 김서현의 이력서",
@@ -70,9 +68,9 @@ export default function ResumePage() {
       {/* Nav */}
       <nav className="sticky top-0 bg-white/90 backdrop-blur border-b border-gray-100 z-10">
         <div className="max-w-4xl mx-auto px-6 h-14 flex items-center justify-between">
-          <Link href="/" className="text-sm font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+          <a href="/pm-portfolio/" className="text-sm font-semibold text-gray-900 hover:text-blue-600 transition-colors">
             ← 포트폴리오
-          </Link>
+          </a>
           <span className="text-sm text-gray-400">이력서</span>
         </div>
       </nav>

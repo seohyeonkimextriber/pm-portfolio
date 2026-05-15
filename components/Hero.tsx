@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Hero() {
   return (
     <section className="max-w-4xl mx-auto px-6 pt-24 pb-16">
@@ -24,12 +22,12 @@ export default function Hero() {
         >
           프로젝트 보기
         </a>
-        <Link
-          href="/resume"
+        <a
+          href="/pm-portfolio/resume"
           className="px-6 py-3 border border-gray-200 text-gray-700 text-sm font-semibold rounded-full hover:bg-gray-50 transition-colors"
         >
           이력서 보기
-        </Link>
+        </a>
       </div>
     </section>
   );

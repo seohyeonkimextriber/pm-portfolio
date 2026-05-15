@@ -11,7 +11,7 @@ export default function Hero() {
         편안한 협업을 더하는 PM. 트립스토어에서 자체 결제 시스템 도입부터
         멀티PG 구조 설계까지, 여행 커머스의 결제 인프라를 처음부터 쌓아왔습니다.
       </p>
-      <div className="flex gap-4 mt-10">
+      <div className="flex flex-wrap gap-4 mt-10">
         <a
           href="mailto:soyhoney@tripstore.kr"
           className="px-6 py-3 bg-blue-600 text-white text-sm font-semibold rounded-full hover:bg-blue-700 transition-colors"
